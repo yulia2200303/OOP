@@ -11,8 +11,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	tr1->Print();
 	Triangle *tr2 = new Triangle(Point(1, 2), Point{ 2, 6 }, Point{ 0, 0 });
 	tr2->Print();
-	tr2->GetPoint(-4);
-	tr2->Print();
+	Point x=tr2->GetPoint(-5);
+	cout <<"Точка ("<< x.x << ", "<<x.y<<")" << endl;
+	tr2->Print(); 
 	cout << "периметр" << tr2->GetPerimeter()<<endl;
 	cout << "длина стороны АВ" << Triangle::GetSide(tr2->GetPointA(), tr2->GetPointB()) << endl;
 	Triangle *tr3 = new Triangle(*tr2);

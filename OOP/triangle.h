@@ -15,7 +15,6 @@ struct Point {
 	}
 };
 
-//enum triangleType{ isosceles, equilateral, rectangular, arbitrary };
 
 class Triangle {
 	Point a_;
