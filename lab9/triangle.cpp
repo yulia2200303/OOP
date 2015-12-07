@@ -18,7 +18,7 @@ Triangle::Triangle(Point a, Point b, Point c)
 Triangle::Triangle(Triangle &tr)
 {
 	
-	if (tr == NULL) throw ErrorNullPointer(8988, "Îáõåêò íå ïğîèíèöèàëèçèğîâàí è ğàâåí NULL", "Triangle");
+	if (tr == NULL) throw ErrorNullPointer(8988, "Îáúåêò íå ïğîèíèöèàëèçèğîâàí è ğàâåí NULL", "Triangle");
 	this->a_ = tr.a_;
 	this->b_ = tr.b_;
 	this->c_ = tr.c_;

@@ -12,7 +12,7 @@ struct Point {
 
 	Point(double x, double y)
 	{
-		if (x < 0 || y < 0) throw ErrorNegativeItem(2099, "отрицательная координата", x < y ? x : y);
+		if (x < 0 || y < 0) throw ErrorNegativeItem(2099, "отрицательная координата", x < 0 ? x : y);
 		this->x = x;
 		this->y = y;
 	}
