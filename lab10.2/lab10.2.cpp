@@ -54,7 +54,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	it = list.begin();
 	list.remove(Random());
 
-	std::replace(list.begin(), list.end(), a, b);
+	/*std::replace(list.begin(), list.end(), a, b);*/
 
 	std::cout << "\nСписок после изменения: ";
 	for (std::list<Stack>::iterator i = list.begin(); i != list.end(); i++)

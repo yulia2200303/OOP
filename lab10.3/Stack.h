@@ -83,7 +83,6 @@ public:
 
 	bool operator ==(const Stack& st1){
 		if (this->size_ != st1.size_) return false;
-	
 
 		for (int i = 0; i < this->size_; i++)
 		{
@@ -98,7 +97,7 @@ public:
 		if (this->size_ < right.size_) return true;
 		if (this->size_ > right.size_) return false;
 
-		int sum1 = 0; 
+		int sum1 = 0;
 		int sum2 = 0;
 		for (int i = 0; i < size_; i++)
 		{
